@@ -1,0 +1,156 @@
+#rectangle{
+
+    height:200px;
+    border:solid thick darkblue; 
+    border-radius: 1em; 
+    border-width:3px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    flex: 0 1 auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 20px 170px 50px;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: #6d747d;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+}
+
+.header-text{
+    margin-right:10px;
+    flex: 0 1 auto;
+}
+
+.header-text h1{
+    font-size: 60px;
+}
+.header-text h4{
+    font-weight: 400;
+    color: #878d96;
+    font-size: 20px;
+}
+
+button{
+    background: #3b83f6;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+ 
+}
+
+.rand-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.rand-head{
+    font-weight: 800;
+    text-align: center;
+}
+
+.rand-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    font-weight: 400;
+
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.rand-cards h1{
+    font-size:64px;
+}
+
+.cards{
+    width:175px;
+    justify-content: center;
+    font-size: 16px;
+
+}
+
+.quote{
+    background: #e5e7eb;
+    padding: 50px 150px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote h1{
+    font-weight: 300;
+    width: 100%;
+    text-align: left;
+}
+
+.quote h3{
+    width: 100%;
+    text-align: right;
+}
+
+.action-call{
+    background: #3b83f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px 100px;
+    flex: 1;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.action-call button{
+    outline-style: solid;
+    outline-color: white;
+}
+
+.footer{
+    display: flex;
+    color:white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+}
